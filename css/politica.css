@@ -1,0 +1,23 @@
+main {
+    padding: 25px 35px;
+    background-color: #faf5da;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+main p {
+    font-size: 15px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    text-align: justify;
+}

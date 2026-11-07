@@ -37,15 +37,33 @@ header {
 
 main {
     width: 100%;
-    height: 350px;
+    min-height: 350px;
     background-color: #faf5da;
 }
 
 footer {
+    padding: 10px;
     width: 100%;
-    height: 100px;
+    min-height: 100px;
     background-color: rgb(245, 212, 104);
+    text-align: center;
 }
+
+footer h2{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+footer p{
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
 #entrar {
     border-radius: 5px;
     background-color: #faf5da;
@@ -92,9 +110,10 @@ header {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #333;
+    background-color: black;
     width: 150px;
     padding: 10px;
+    border-radius: 6px;
 }
 
 #navegar a {
