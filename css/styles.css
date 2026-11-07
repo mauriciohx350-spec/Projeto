@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -80,4 +81,29 @@ header {
     padding-right: 20px;
     width: auto ;
     height: auto
+}
+
+.menu_container {
+    position: relative;
+}
+
+#navegar {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #333;
+    width: 150px;
+    padding: 10px;
+}
+
+#navegar a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#navegar a:hover {
+    background-color: #020202;
 }
